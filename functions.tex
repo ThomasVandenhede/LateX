@@ -1,0 +1,138 @@
+% Template obtained from http://www.cv-templates.info/2009/03/professional-cv-latex/
+
+%Setup hyperref package, and colours for links
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%Color
+\definecolor{lightg}{HTML}{999999}
+\definecolor{medg}{HTML}{666666}
+\definecolor{darkg}{HTML}{333333}
+
+% Bullets
+\definecolor{noteone}{HTML}{999999}
+\definecolor{notetwo}{HTML}{848484}
+\definecolor{notethree}{HTML}{424242}
+\definecolor{notefour}{HTML}{212121}
+\definecolor{notefive}{HTML}{000000}
+
+\newcommand{\fivenotes}{
+	\textcolor{noteone}{\symbol{"2022}}
+	\textcolor{notetwo}{\symbol{"2022}}
+	\textcolor{notethree}{\symbol{"2022}}
+	\textcolor{notefour}{\symbol{"2022}}
+	\textcolor{notefive}{\symbol{"2022}}
+}
+\newcommand{\fournotes}{
+	\textcolor{noteone}{\symbol{"2022}}
+	\textcolor{notetwo}{\symbol{"2022}}
+	\textcolor{notethree}{\symbol{"2022}}
+	\textcolor{notefour}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+}
+\newcommand{\threenotes}{
+	\textcolor{noteone}{\symbol{"2022}}
+	\textcolor{notetwo}{\symbol{"2022}}
+	\textcolor{notethree}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+}
+\newcommand{\twonotes}{
+	\textcolor{noteone}{\symbol{"2022}}
+	\textcolor{notetwo}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+}
+\newcommand{\onenote}{
+	\textcolor{noteone}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+	\textcolor{white}{\symbol{"2022}}
+}
+
+\newcommand{\oneskill}{
+  \textcolor{white}{\symbol{"2022}}
+  \textcolor{white}{\symbol{"2022}}
+  \textcolor{notefive}{\symbol{"2022}}
+}
+
+\newcommand{\twoskill}{
+  \textcolor{white}{\symbol{"2022}}
+  \textcolor{notethree}{\symbol{"2022}}
+  \textcolor{notefive}{\symbol{"2022}}
+}
+
+\newcommand{\threeskill}{
+  \textcolor{noteone}{\symbol{"2022}}
+  \textcolor{notethree}{\symbol{"2022}}
+  \textcolor{notefive}{\symbol{"2022}}
+}
+
+%FONTS
+% \defaultfontfeatures{Mapping=tex-text}
+% \setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+
+\setromanfont [Ligatures={Common}, BoldFont={Linux Libertine Bold}, ItalicFont={Linux Libertine Italic}]{Linux Libertine}
+\setsansfont [Ligatures={Common}, BoldFont={GeosansLight}, ItalicFont={GeosansLight}]{GeosansLight}
+\setmonofont{GeosansLight}
+
+\font\lighttext=''LibreBaskerville-Regular:color=787878'' at 10pt
+\font\lighttextweb=''LibreBaskerville-Regular:color=FF1493'' at 10pt
+
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright\sffamily}{}{0em}{}[\titlerule]
+%% \titlespacing{\section}{0pt}{-2pt}{0pt}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\TPGrid[30mm,30mm]{30}{60}
+%\setlength{\TPHorizModule}{30mm}
+%\setlength{\TPVertModule}{\TPHorizModule}
+%\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+\newcommand{\skill}{\textbf}
+\newcommand{\institution}{\textsc}
+
+% \def\bullet{\textcolor{medg}{\symbol{"00BB}}}
+\def\div{\,\textbar{}\,}
+
+\usepackage{xspace}
+
+% language macros
+
+\newcommand{\lang}[2]{\expandafter\def\csname #1\endcsname{\skill{#2}\xspace}}
+
+\lang{js}{JavaScript}
+\lang{backbone}{Backbone.js}
+\lang{python}{Python}
+\lang{ruby}{Ruby}
+\lang{java}{Java}
+\lang{matlab}{MATLAB}
+\lang{bash}{Bash}
+\lang{c}{C}
+\lang{clojure}{Clojure}
+\lang{cascalog}{Cascalog}
+\lang{hadoop}{Hadoop}
+\lang{spark}{Spark}
+\lang{cpp}{C++}
+\lang{ccpp}{C/C++}
+\lang{scheme}{Scheme}
+\lang{django}{Django}
+\lang{numpy}{NumPy}
+\lang{scipy}{SciPy}
+\lang{opencv}{OpenCV}
+\lang{jquery}{jQuery}
+\lang{git}{git}
+\lang{linux}{Linux}
+\lang{android}{Android}
+\lang{html}{HTML/CSS}
+\lang{visb}{Visual Basic}
+\lang{haskell}{Haskell}
+\lang{php}{PHP}
+\lang{sql}{SQL}
+\lang{salesforce}{Salesforce}
+\lang{postgres}{PostgreSQL}
+\lang{hive}{Hive}
