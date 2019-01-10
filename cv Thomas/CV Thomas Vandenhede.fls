@@ -1,0 +1,35 @@
+PWD /home/thomas/Documents/LateX/cv Thomas
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT CV Thomas Vandenhede.tex
+OUTPUT CV Thomas Vandenhede.log
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT /usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def

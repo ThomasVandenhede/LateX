@@ -1,0 +1,144 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage{marvosym}
+\usepackage{fontspec} % fonts
+\usepackage{fontawesome} % web icons (load AFTER fontspec)
+\usepackage{setspace}
+\usepackage{xunicode, xltxtra, url, parskip}
+\defaultfontfeatures{Scale=MatchLowercase, Mapping=tex-text}
+\RequirePackage{color, graphics}
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage[left=2.5cm, right=2.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{supertabular}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{xstring}
+\usepackage{ifthen}
+\usepackage{enumitem}
+\usepackage[xetex, unicode, pdfencoding=auto]{hyperref}
+\usepackage[absolute]{textpos}
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+% \makeatletter
+% \renewcommand*{\@biblabel}[1]{\hfill[#1]}
+% \makeatother
+
+% Redefine fontawesome social icons
+\newfontfamily{\FA}{[FontAwesome.otf]}
+\def\TwitterIcon{{\FA \faTwitter}}
+\def\GithubIcon{{\FA \faGithub}}
+\def\CodepenIcon{{\FA \faCodepen}}
+\def\EnvelopeIcon{{\FA \faEnvelopeO}}
+\def\MapMarkerIcon{{\FA \faMapMarker}}
+\def\PhoneIcon{{\FA \faPhone}}
+
+\include{functions}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{minipage}[t]{\textwidth}
+	\begin{tabularx}{\linewidth}{@{}l l X c l@{}}
+		\MapMarkerIcon	& 50 avenue Charles Tellier		& & \EnvelopeIcon	& \href{mailto:thomasvandenhede@hotmail.com}{thomasvandenhede@hotmail.com}\\
+						& 78800 Houilles				& & \GithubIcon		& \href{https://github.com/ThomasVandenhede/}{github.com/ThomasVandenhede/}\\
+		\PhoneIcon		& 06 59 27 88 42				& & \CodepenIcon	& \href{https://codepen.io/ThomasVandenhede/}{codepen.io/ThomasVandenhede/}\\
+	\end{tabularx}
+\end{minipage}
+\bigskip
+
+%\bigskip
+%\begin{center}
+%	$\left\{\qquad
+%		\begin{tabular}{@{}c@{}}
+%			\Huge\textbf{Thomas Vandenhede}\medskip\\
+%			\LARGE Développeur Web Front-End
+%		\end{tabular}
+%	\qquad\right\}$
+%\end{center}
+%\bigskip
+
+\begin{center}
+	\Huge \textbf{Thomas Vandenhede}\smallskip\\
+	\LARGE Développeur Web Front-End\bigskip
+\end{center}
+
+\section{Expérience Professionnelle}
+\begin{experiences}
+	\experience{Août 2017}
+	{Cas d'Etude Intégration d'un Design Web}
+	{\hfill}
+	{\href{http://anaxago.com/}{Anaxago}}
+	{}
+	\experience{Février 2016 Août 2016}
+	{Stage Développement Python - Modélisation Environnementale (Acoustique \& \'Emissions)}
+	{\hfill}
+	{\href{http://www.env-isa.com}{Envisa}}
+	{\hangindent=1.0em --~Développement de scripts en langage \python pour la collecte et l'analyse de données bruit et émissions.
+
+	\hangindent=1.0em --~Logiciel \python de calcul des émissions de gaz à effet de serre des engins de piste pour les aéroports dans le cadre du projet européen Open-ALAQS. Utilisation de bases de données \sql (SQLite) et du framework \qt (PyQt).
+	
+	\hangindent=1.0em --~Administration de site web \wordpress.}
+	\experience{Mai 2013 Juillet 2013}
+	{Stage Développement Excel VBA - Modélisation de Coûts de Maintenance Aéronautique}
+	{\hfill}
+	{\href{http://www.safran-transmission-systems.com}{Hispano-Suiza}}
+	{\hangindent=1.0em --~Développement, au cours d'un stage de 3 mois, d'un outil de modélisation des coûts de maintenance aéronautique sous Excel (\office) faisant appel à \visb (VBA).}
+\end{experiences}
+\section{Formation}
+\begin{education}
+	\degree{Septembre 2016}{Diplôme Master 2 \'Energétique et Matériaux}{Université Paris Ouest Nanterre La Défense}{Ville d'Avray}
+\end{education}
+\section{Compétences Informatiques \& Langages}
+\vspace{-0.5em}
+\begin{skillslisting}
+	\skills{\threeskill}{\python}
+	\skills{\twoskill}{\bootstrap}
+	\skills{\threeskill}{\html}
+	\skills{\threeskill}{\sass}
+	\skills{\threeskill}{\js}
+	\skills{\threeskill}{\jquery}
+	\skills{\twoskill}{\react}
+	\skills{\oneskill}{\angular}
+	\skills{\threeskill}{\sql}
+	\skills{\twoskill}{\git}
+	\skills{\twoskill}{\refac}
+	\skills{\twoskill}{\patterns}
+	\skills{\oneskill}{GNU / \linux}
+	\skills{\oneskill}{\visb}
+	\skills{\twoskill}{\LaTeX}
+	\skills{\twoskill}{\matlab}
+\end{skillslisting}
+\vspace{-0.5em}
+\begin{footnotesize}
+	\oneskill Basique \hfill
+	\twoskill Intermédiaire \hfill
+	\threeskill Avancé
+\end{footnotesize}
+\section{Langues}
+\begin{tabu} to \textwidth {@{} X[1,r] X[5,l] @{}}
+	\textbf{Français} & Langue maternelle\\
+	\textbf{Anglais} & Lu, parlé et écrit avec aisance \em (Score TOEIC : 985 sur 990)\\
+	\textbf{Espagnol} & Niveau scolaire\\
+	\textbf{Italien} & Notions\\
+	\textbf{Russe} & Notions. \em (Séjour 1 mois à Moscou, certificat d'étude délivré par l'Institut d'état de langue russe A.S. Pouchkine)\\
+	\textbf{Polonais} & Notions
+\end{tabu}
+\vspace{0.1cm}
+
+%\section{Personal and Open Source Projects}
+%\begin{tabularx}{\textwidth}{@{}p{3cm}|X@{}}
+%	\proj{matsciseg}
+%	{Framework for propagated 3D volume segmentation, used in my
+%	dissertation work.  Algorithms created in \python and \cpp and
+%	exposed as a web API using \django. Includes a web application
+%	that consumes the API created in \js, and \jquery.}
+%	{github.com/malloc47/matsciseg}
+%\end{tabularx}
+
+\section{Activités \& Centres d'Intérêt}
+Programmation orientée objet, programmation web, langues étrangères, tennis.
+
+\end{document}

@@ -1,0 +1,59 @@
+Thomas Vandenhede
+
+Informations personnelles
+
+Adresse : 50 avenue Charles Tellier, 78800 Houilles
+Téléphone : 01 39 68 66 12
+mél : thomasvandenhede@hotmail.com
+
+Internet
+
+???
+
+Centres d'intérêt
+
+???
+
+Formation
+
+Septembre 2016 : Master 2 Energétique et Matériaux de l'Université Paris Ouest Nanterre La Défense
+????-???? : [vide] Ecole d'ingénieur ENSEIRB-Matméca à Bordeaux
+
+Expérience
+
+février-août 2016 : Envisa
+été 20?? : Hispano-Suiza
+
+Compétences & Langages
+
+*** Python
+*** Java
+ ** C
+  * HTML
+*** CSS
+*** PHP
+ ** SQL
+ ** JQuery
+*** Git
+  * Latex
+ ** JavaScript
+*** MATLAB
+ ** Visual Basic.NET
+ ** VBA
+*** Microsoft Office
+
+Key:
+  * Small-scale projects and/or assignments
+ ** Multiple projects and/or experience teaching
+*** Large-scale and/or multi-group projects
+
+Langues
+
+*** Français
+*** Anglais
+ ** Espagnol
+  * Russe
+  * Polonais
+  * Italien
+
+Projets Personnels (& Open-Source)
